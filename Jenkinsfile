@@ -24,7 +24,7 @@ pipeline {
                 script {
                     // If you are using Windows then you should use "bat" step
                     // Since unit testing is out of the scope we skip them
-                    sh(${MAVEN_HOME}/bin/mvn clean install)
+                    sh(mvn clean install)
                 }
             }
         }
