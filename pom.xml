@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example</groupId>
+	<groupId>com.eyan</groupId>
 	<artifactId>devops</artifactId>
-	<version>1.8.0-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
 	<name>devops</name>
 	<description>DevOps Demo Project</description>
@@ -29,20 +29,20 @@
 		<repository>
 			<id>release</id>
 			<name>releases</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
+			<url>http://ysr13nov2c.mylabserver.com:8081/repository/maven-OPI-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+			<url>http://ysr13nov2c.mylabserver.com:8081/repository/maven-OPI-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 	<scm>
 		<connection>scm:git:git@github.com:nandudemy/devops.git</connection>
-		<developerConnection>scm:git:git@github.com:nandudemy/devops.git</developerConnection>
-		<url>git@github.com:nandudemy/devops.git</url>
-		<tag>v1.6.1</tag>
+		<developerConnection>scm:git:git@github.com:santhosh13nov/spring-udemy.git</developerConnection>
+		<url>git@github.com:santhosh13nov/spring-udemy.git</url>
+		<tag>v1.0.0</tag>
 	</scm>
 
 	<dependencies>
