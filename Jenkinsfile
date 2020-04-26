@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git 'https://github.com/ybmadhu/spring3-mvc-maven-xml-hello-world.git';
+                    git 'git@github.com:santhosh13nov/spring-udemy.git';
                 }
             }
         }
