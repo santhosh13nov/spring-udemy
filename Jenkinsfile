@@ -7,9 +7,7 @@ pipeline {
         maven "maven"
         jdk "jdk11"
     }
-    environment {
-        echo "PATH = ${PATH}"
-    }
+ 
     stages {
         stage("clone code") {
             steps {
